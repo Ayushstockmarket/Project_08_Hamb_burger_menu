@@ -1,6 +1,9 @@
 .hide{
     display: none;
 }
+.just-hide{
+  display: none;
+}
 .menu_add_styling_dynamic{
     width: 50px;
 }
@@ -120,6 +123,12 @@ footer {
     font-size: 1.2rem;
     color: rgb(97, 76, 49);
   }
+  .just-hide{
+    display: block;
+  }
+  .just-hide{
+    display: none;
+  }
 }
 @media screen and (max-width: 1108px) {
   .nav-items {
@@ -137,6 +146,9 @@ footer {
     background-color: whitesmoke;
     flex-direction: column;
     font-size: 1rem;
+  }
+  .just-hide{
+    display: none;
   }
 }
 @media screen and (max-width: 926px) {
@@ -172,8 +184,10 @@ footer {
     text-align: center;
     border-bottom:1px solid black;
   }
+  .just-hide{
+    display: block;
+  }
 }
-
 @media screen and (max-width: 400px) {
   .menu-btn-options{
     position: absolute;
@@ -204,5 +218,7 @@ footer {
     font-size: 1rem;
     margin-top: 60px;
   }
- 
+  .just-hide{
+    display: block;
+  }
 }
